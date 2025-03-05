@@ -19,4 +19,17 @@ func main(){
 	var b = 20
 	c := a+b
 	fmt.Println(c)
+
+	var name_1 string = "John" // type is string
+	var name_2 = "Doe" // type is inferred
+	name_3 := "Jane" // type is inferred
+
+	fmt.Println(name_1, name_2, name_3)
+
+	// variable declaration without value
+	var d string
+	var e int
+	var f bool
+
+	fmt.Println(d, e, f)
 }
